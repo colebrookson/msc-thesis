@@ -1,19 +1,8 @@
-# Not just for programmers: A friendly guide on the versatility/benefits of GitHub for accelerating collaborative research in Ecology and Evolution
-
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
-
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://SORTEE-Github-Hackathon.github.io/manuscript/v/latest/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/manuscript/actions/workflows/manubot.yaml)
-
-### Subject: The use of Github in Ecology and Evolution
+# Trait-based Approaches to Modeling Trophic Interactions Under Global Change 
 
 ## Manuscript description
 
-<!-- usage note: edit this section. -->
-
-A friendly guide to GitHub and all the things you can **currently** do with it. Very few papers focus on GitHub as a tool for collaboration. We will also mention where GitHub falls short as a tool for collaboration.
+I think that you should write your thesis in a reproducible and open way, so I've decided to write all of the thesis content itself here on GitHub where it can in theory be accessible to others. Maybe someone will find it useful!
 
 ## Contributing
 
