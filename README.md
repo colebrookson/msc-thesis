@@ -9,7 +9,8 @@ I think that you should write your thesis in a reproducible and open way, so I'v
 I have two main repos that contain the actual work that this thesis works off of. 
 
 The directories and main files are as follows:
-+ [`/` (`main` root)](https://github.com/colebrookson/trait-based-rewiring) this repo contains the work for my chapter on trait-based rewiring of whole food webs. Therein is all the work for the actual project itself which has it's own associated manuscript. 
++ [`trait-based-rewiring`](https://github.com/colebrookson/trait-based-rewiring) this repo contains the work for my chapter on trait-based rewiring of whole food webs. Therein is all the work for the actual project itself which has it's own associated manuscript. 
++ [`tuna-diet-prediction`](https://github.com/colebrookson/tuna-diet-prediction) this repo contains the work for my chapter on predicting how tuna diets can be predicted using a varietyf of methods. Therein is all the work for the actual project itself which has it's own associated manuscript. 
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
 + [`output`](output) (and the `output` and `gh-pages` branches) contains the outputs (generated files) from Manubot including the resulting manuscript files (in `HTML`, `PDF`, and other formats).
 
