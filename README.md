@@ -2,31 +2,17 @@
 
 ## Manuscript description
 
-I think that you should write your thesis in a reproducible and open way, so I've decided to write all of the thesis content itself here on GitHub where it can in theory be accessible to others. Maybe someone will find it useful!
-
-## Contributing
-
-A free, personal [Github Account](https://github.com/join?source=header-home) is necessary to contribute to this project.
-
-To contribute in writing, you must follow the guidelines described [within the CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-In a nutshell, suggestions about the literature require the creation of [discussions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions), and written contributions require the modification of files within the [content](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/main/content) directory and pushing changes through [pull requests](https://github.com/SORTEE-Github-Hackathon/manuscript/pulls).
-
-## Authorship Guidelines
-
-Authorship contributions are categorized following the guidelines from the [CRediT Taxonomy](https://casrai.org/credit/) and the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
-
-All prospective authors must follow the contributing guidelines [within the CONTRIBUTING.md](CONTRIBUTING.md) file. There you will find out that you are encouraged to write a few words about yourself in the [Self-Introductions](https://github.com/SORTEE-Github-Hackathon/manuscript/discussions/4) discussion section, and you will also see how to fill-in your [author information](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/USAGE.md#manuscript-metadata) once you [contribute](https://github.com/SORTEE-Github-Hackathon/manuscript/blob/main/CONTRIBUTING.md#contributing-with-writing) to this project.
+I think that you should write your thesis in a reproducible and open way, so I've decided to write all of the thesis content itself here on GitHub where it can in theory be accessible to others. Maybe someone will find it useful! Obviously theses themselves are outdated and kind of weird concepts seeing as the actual unit of measure is a published paper...but apparently I have to do this anyways so here it will be. 
 
 ### Repository directories & files
 
+I have two main repos that contain the actual work that this thesis works off of. 
+
 The directories and main files are as follows:
-+ [`/` (`main` root)](https://github.com/SORTEE-Github-Hackathon/manuscript/) this directory contains this document `README.md`, which helps uses with the general information about this repository and our project.
-+ [`CONTRIBUTING.md`](CONTRIBUTING.md) contains procedures and directions for prospective authors to contribute to this manuscript.
-+ [`USAGE.md`](USAGE.md) contains a getting started with Git guidelines, information on formatting text, citing references, adding figures and tables, and other manuscript editing.
++ [`/` (`main` root)](https://github.com/colebrookson/trait-based-rewiring) this repo contains the work for my chapter on trait-based rewiring of whole food webs. Therein is all the work for the actual project itself which has it's own associated manuscript. 
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
 + [`output`](output) (and the `output` and `gh-pages` branches) contains the outputs (generated files) from Manubot including the resulting manuscript files (in `HTML`, `PDF`, and other formats).
-  You should not edit these files manually, because they will be overwritten by the Manubot.
+
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
@@ -36,13 +22,6 @@ The directories and main files are as follows:
 
 Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
 The build process aims to detect common errors, such as invalid citations. 
-If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
-
-When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/gh-pages) and [`output`](https://github.com/SORTEE-Github-Hackathon/manuscript/tree/output) branches.
-The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
-
-+ **HTML manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/index.html
-+ **PDF manuscript** at https://sortee-github-hackathon.github.io/manuscript/v/latest/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
@@ -76,8 +55,6 @@ All other files are only available under CC BY 4.0, including:
 + `*.html`
 + `*.pdf`
 + `*.docx`
-
-Please open [an issue](https://github.com/SORTEE-Github-Hackathon/manuscript/issues) for any question related to licensing.
 
 ## About Manubot
 
